@@ -1,0 +1,5 @@
+export { FluidEngine } from './FluidEngine'
+export type { EngineStatus } from './FluidEngine'
+export { DEFAULT_CONFIG, NUMBER_LIMITS, sanitizeConfig } from './config'
+export type { FluidConfig, NumericSetting, BooleanSetting } from './config'
+export type { Capabilities, EngineErrorCode } from './types'
